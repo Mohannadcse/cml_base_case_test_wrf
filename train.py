@@ -1,5 +1,5 @@
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import plot_confusion_matrix
+#from sklearn.metrics import plot_confusion_matrix
 import matplotlib.pyplot as plt
 import json
 import os
@@ -24,6 +24,6 @@ with open("metrics.txt", 'w') as outfile:
 
 
 # Plot it
-disp = plot_confusion_matrix(clf, X_test, y_test, normalize='true',cmap=plt.cm.Blues)
-plt.savefig('confusion_matrix.png')
+#disp = plot_confusion_matrix(clf, X_test, y_test, normalize='true',cmap=plt.cm.Blues)
+#plt.savefig('confusion_matrix.png')
 
